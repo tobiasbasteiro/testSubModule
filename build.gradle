@@ -12,10 +12,5 @@ dependencies {
    runtime 'javax.servlet:jstl:1.1.2'
 }
 
-war {
-    manifest {
-        attributes 'Implementation-Title': 'Gradle Quickstart', 'Implementation-Version': version
-    }
-}
 /* Change context path (base url). otherwise defaults to name of project */
 jettyRunWar.contextPath = '' 
